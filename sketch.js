@@ -53,7 +53,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(0);
+  background("skyblue");
 
   Engine.update(engine)
   packageSprite.x= packageBody.position.x 
